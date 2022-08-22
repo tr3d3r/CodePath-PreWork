@@ -33,7 +33,7 @@ Here's a walkthrough of implemented features:
 <img src='./recording.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' width='300' height='650'>
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with [Android Studio's](https://developer.android.com/studio) AVD recording feature.  
+GIF created with [LiceCap](http://www.cockos.com/licecap/).  
 <!-- Other options include:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows

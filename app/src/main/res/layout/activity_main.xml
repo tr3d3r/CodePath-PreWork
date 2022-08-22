@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/doglick"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_view_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/chewy_regular"
+        android:text="@string/meet_caleb"
+        android:textSize="50sp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="48dp"/>
+
+    <!--<ImageView
+        //commented out so I could add image as background instead
+        android:id="@+id/myImageView"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="48dp"
+
+        app:srcCompat="@drawable/dog" />-->
+
+    <TextView
+        android:id="@+id/introTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:text="@string/caleb_intro"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:fontFamily="@font/chewy_regular"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.218"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="48dp"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_1" />
+
+    <!--
+    Comments:
+        Chewy font felt fitting and I thought it looked nice
+        Made my image the background
+        Was going to "bold" text style but seemed unnecessary given font choice
+        Changed the colors in "button" and text to be more suiting
+        Played around with themes, colors, backgrounds, and style - learned a great lot
+    Struggles:
+        found difficulty adding comments
+        Ran out of time to implement transitions and multiple pages
+    -->
+    <Button
+        android:id="@+id/surpriseFactButton"
+        android:layout_width="284dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/chewy_regular"
+        android:text="@string/button_text"
+        android:textSize="24sp"
+        android:textColor="@color/teal_700"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/introTextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

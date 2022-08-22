@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CodePath Android Dev</string>
+    <string name="caleb_intro">Hello World! My name is Caleb Valdez-Copeland. I love building things and trying new food. I am a dad to an amazing dachshund. </string>
+    <string name="button_text">Surprising Fact</string>
+    <string name="caleb_fact">Buttons are so tasty!</string>
+    //add facts into the menu and make this a funny one
+    <string name="meet_caleb">Meet Caleb<a href="https://www.linkedin.com/in/caleb-valdez-copeland/"></a></string>
+</resources>
